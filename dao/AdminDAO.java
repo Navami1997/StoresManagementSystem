@@ -9,4 +9,5 @@ public interface AdminDAO {
 	public ManufacturerInfoBean updateManufacturerDetails(ManufacturerInfoBean manufacturer);
 	public ManufacturerInfoBean getManufacturerDetails(int id);
 	public List<ManufacturerInfoBean> getAllManufacturersDetails();
+	public boolean removeManufacturer(ManufacturerInfoBean manufacturer);
 }

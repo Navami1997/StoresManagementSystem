@@ -45,4 +45,9 @@ public class AdminDAOImpl implements AdminDAO {
 		return new ArrayList<ManufacturerInfoBean>(CollectionDbClass.manufacturerSet);
 	}
 
+	@Override
+	public boolean removeManufacturer(ManufacturerInfoBean manufacturer) {
+		return false;
+	}
+
 }
